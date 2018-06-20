@@ -37,7 +37,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color:black;
 }
 
 h1 {
@@ -45,6 +45,9 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+}
+#me {
+  margin-left: 0;
 }
 
 h2,
@@ -74,10 +77,10 @@ h3 {
   font-weight: 700;
   word-wrap: break-word;
   line-height: 90px;
-  color: #fff;
+  color: whitesmoke;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background:rgb(99, 97, 97);
 }
 
 nav {
@@ -90,7 +93,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color:rgb(92, 90, 90);
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -105,11 +108,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
-  color: #ccc;
+  color:whitesmoke;
+  color:whitesmoke;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background:rgb(99, 97, 97);
+  border-top: 8px solid black;
 }
 
 /* sidebar */
@@ -133,14 +136,10 @@ h3,
 }
 
 .social {
-  width: 62px;
-  height: 62px;
+  width: 110px;
+  height: 60px;
   margin-top: 8px;
-  margin-right: 5px;
-}
-
-.social:last-child {
-  margin-right: 0;
+  margin-left: 25px;
 }
 
 /* main */
@@ -160,7 +159,6 @@ h3,
 }
 
 /* portfolio page */
-
 .work {
   position: relative;
   float: left;
@@ -189,19 +187,9 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: black;
   border-bottom: 0;
 }
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-
 /* contact page */
 
 #contact-form ul {
