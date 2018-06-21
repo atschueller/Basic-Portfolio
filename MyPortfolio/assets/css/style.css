@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background-color: whitesmoke;
 }
 
 * {
@@ -38,6 +38,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color:black;
+  
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+  text-shadow: 2px 2px white;
 }
 #me {
   margin-left: 0;
@@ -78,6 +80,7 @@ h3 {
   word-wrap: break-word;
   line-height: 90px;
   color: whitesmoke;
+  text-shadow: 2px 2px black;
   text-align: center;
   text-decoration: none;
   background:rgb(99, 97, 97);
